@@ -5,7 +5,7 @@ It demonstrates practical application of **SQL**, **Power Query**, **Excel**, **
 
 ---
 
-## 📄 **Project Overview**
+## **Project Overview**
 
 Following the onboarding of a large corporate client, the call centre experienced a rapid increase in call volumes. This created several issues:
 
@@ -20,11 +20,11 @@ This project builds a structured reporting and analysis framework to support dai
 
 ---
 
-## 📂 **Repository Structure**
+## **Repository Structure**
 
 * **case-study/**
   Full PDF case study with background, analysis, insights, and recommendations.
-  → `case-study/case_study_health_insurace_call_centre_optimisation.pdf`
+  → `case_study_health_insurace_call_centre_optimisation.pdf`
 
 * **data/**
   Sample Excel data used for modelling and dashboards.
