@@ -22,27 +22,14 @@ This project builds a structured reporting and analysis framework to support dai
 
 ## **Repository Structure**
 
-* **case-study/**
-  Full PDF case study with background, analysis, insights, and recommendations.
-  → `case_study_health_insurace_call_centre_optimisation.pdf`
+* `case_study_health_insurace_call_centre_optimisation.pdf` - full PDF case study with background, analysis, insights, and recommendations.
 
-* **data/**
-  Sample Excel data used for modelling and dashboards.
-  → `data/sample_daily_reports.xlsx`
+* `health_insurace_call_centre_analytics.xlsx` - models, visualisations and sample data used for analysis and dashboards.
 
-* **presentation/**
-  Executive-level PowerPoint summarising key findings.
-  → `presentation/call_centre_dashboard.pptx`
-
-* **scripts/** *(optional)*
-  SQL queries, Power Query M scripts, and DAX measures.
-
-* **images/** *(optional)*
-  Screenshots for documentation or GitHub preview.
-
+* `health_insurace_call_centre_daily_performance_dashboard.pptx`, `health_insurace_call_centre_daily_performance_dashboard.pdf` - executive-level PowerPoint daily dashboard.
 ---
 
-## 🎯 **Objectives**
+## **Objectives**
 
 * Automate ETL workflows for daily data refresh
 * Consolidate CCaaS, internal SQL data, and outsourced call-centre reports
@@ -54,73 +41,32 @@ This project builds a structured reporting and analysis framework to support dai
 
 ---
 
-## 🔧 **Tools & Techniques**
-
-| Area                | Tools                               |
-| ------------------- | ----------------------------------- |
-| Data extraction     | SQL, CCaaS exports                  |
-| Data transformation | Power Query (M)                     |
-| Modelling           | Excel data model, star schema       |
-| Calculations        | DAX measures, rolling averages      |
-| Visualisation       | Excel dashboards, PowerPoint        |
-| Forecasting         | Poisson model for call-volume peaks |
-
----
-
-## 📊 **Key Insights**
+## **Key Insights**
 
 * Late evenings on working days had the **highest answer times** and **missed-call rates**
 * Outsourced call centre returned **up to 70%** of overflow calls back to the main line
 * Most calls were medical requests; service-approval calls dominated the volume
 * A large proportion of calls were tagged as **“Other”**, signalling classification issues
 * CSAT remained relatively high despite response-time challenges
-
 ---
 
-## ⭐ **Results & Impact**
+## **Results & Impact**
 
 * Missed-call rate decreased from **20% → ~5%**
 * Outsourced provider performance improved significantly
 * Staffing aligned more accurately with hourly demand
 * Reporting became faster, clearer, and more actionable
 * Key operational KPIs became visible for the first time
-
 ---
 
-## 📥 **Included Files**
-
-* **PDF case study:**
-  `case-study/case_study_health_insurace_call_centre_optimisation.pdf`
-
-* **Excel sample data:**
-  `data/sample_daily_reports.xlsx`
-
-* **PowerPoint slides:**
-  `presentation/call_centre_dashboard.pptx`
-
-* **Scripts:**
-  SQL, Power Query, and DAX formulas (if added)
-
----
-
-## 🙋‍♂️ **About This Project**
+## **About This Project**
 
 This project is part of my analytics portfolio and demonstrates:
 
 * Data modelling and operational reporting
-* KPI and SLA analysis
+* KPI analysis
 * ETL automation using Power Query
 * SQL-based integration with internal systems
 * Clear communication of technical findings to business stakeholders
 
 Feel free to explore the repository or reach out if you’d like to discuss the project further.
-
----
-
-If you want, I can also:
-✔ Add GitHub badges
-✔ Generate a concise CV-ready summary
-✔ Prepare a shorter README version
-✔ Create a banner image for the repo
-
-Just tell me!
